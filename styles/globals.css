@@ -20,7 +20,18 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    color: black;
+    background: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: auto auto;
+    justify-content: center;
+  }
+
+  .Home_container__bCOhY {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
   }
 }
